@@ -2,7 +2,7 @@
   window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
   window.webkitRequestAnimationFrame || window.msRequestAnimationFrame
   // 初始化
-  const FRAME_RATE = 60
+  const FRAME_RATE = 600
   const PARTICLE_NUM = 2500 //粒子的数量
   const RADIUS = Math.PI * 2 //半径范围
   const CANVASWIDTH = 800 //宽度
@@ -131,7 +131,7 @@
       console.log(textIndex)
     }, false)
 
-    document.addEventListener('touchstart', function (e) {
+    /*document.addEventListener('touchstart', function (e) {
       textIndex++
       if (textIndex >= texts.length) {
         textIndex--
@@ -139,7 +139,7 @@
       }
       text = texts[textIndex]
       console.log(textIndex)
-    }, false)
+    }, false)*/
   }
 
   function init () {
@@ -217,10 +217,10 @@
     }
   }
   
-  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  /*var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     if(!isChrome){
       $('#iframeAudio').remove()
-  }
+  }*/
   
   // setTimeout(() => {
     init()  
