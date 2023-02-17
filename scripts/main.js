@@ -13,7 +13,7 @@
   // let texts = ['MY DEAR', 'LOOK UP AT THE', 'STARRY SKY', 'ARE YOU', 'LOOKING AT THE', 'SAME STAR', 'WITH ME ?', 'HAPPY', 'CHINESE', 'VALENTINE\'S', 'DAY', 'I MISS YOU']
   
   //文本框，写下自己想要的祝福语 ---cn
-  let texts = ['HOLA', 'FELICIDADES POR', 'CADA META', 'QUE LOGRAS', 'ES BIEN CHIDO','COMPARTIR','CONTIGO', 'PORQUE...','LITERAL xd','CHOCAMO','EN EL TRAYECTO',
+  let texts = ['HOLA', 'ESTO ES', 'PARA', 'THE BEST PSYCO', 'FELICIDADES POR', 'CADA META', 'QUE LOGRAS', 'ES BIEN CHIDO','COMPARTIR','CONTIGO', 'PORQUE...','LITERAL xd','CHOCAMO','EN EL TRAYECTO',
   'Atte.','✮ The motopapi P']
   
   let canvas, //幕布初始化具体参数
